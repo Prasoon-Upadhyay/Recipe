@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: rgb(74 222 128);
+}
+/* 
+.container{
+    margin-left: 40%;
+} */
+
+.text-stop{
+    max-width: 50ch;
+}
+
+hr{
+    border-color: rgb(244 63 94);
+    border-width: 6px;
+    border-bottom: 0 ;
+    border-left: 0;
+    border-right: 0;
+    border-style: dotted;    
+    width: 8%;
+    margin: auto;
+}
